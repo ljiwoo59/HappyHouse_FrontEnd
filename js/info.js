@@ -1,9 +1,9 @@
 $(function() {
     $("#dong").click(function () {
-        window.open("2.html", "_parent");
+        window.open("price_dong.html", "_parent");
       });
       $("#apt").click(function () {
-        window.open("3.html", "_parent");
+        window.open("price_apt.html", "_parent");
       });
       
     $('button#login').click(function() {
@@ -24,11 +24,11 @@ $(function() {
         alert("로그아웃 되었습니다");
         $('#loginForm').attr('style', 'display:inline');
         $('#logoutForm').attr('style', 'display:none');
-        open("main1.html", "_parent");
+        open("mainpage.html", "_parent");
     })
 
     $('button#info').click(function() {
-        open("4.html", "_parent");
+        open("profile.html", "_parent");
     })
 
     $('button#register').click(function() {
@@ -55,7 +55,7 @@ $(function() {
         alert("탈퇴 되셨습니다");
         $('#loginForm').attr('style', 'display:inline');
         $('#logoutForm').attr('style', 'display:none');
-        open("main1.html", "_parent");
+        open("mainpage.html", "_parent");
     })
 
     $('button#editted').click(function() {
